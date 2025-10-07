@@ -36,6 +36,9 @@ Accurate classification of biological specimens is essential in agriculture, res
 - Correlation matrix highlights strong relationships between petal length and petal width  
 - Feature distributions show clear separation between species
 
+![Feature Importance](images/feature_importance.png)
+
+
 **Key Insights:**  
 - Petal measurements are more predictive than sepal measurements  
 - Setosa is easily separable; Versicolor and Virginica show partial overlap  
@@ -50,31 +53,29 @@ Accurate classification of biological specimens is essential in agriculture, res
 - Used GridSearchCV for hyperparameter tuning  
 - Visualized confusion matrix and classification report
 
+![Feature Importance](images/accuracy_comparison.png)
+
 ---
 
 ## 5. Results
 
 - All models achieved high accuracy (>90%)  
-- Random Forest delivered the best balance across precision and recall  
+- Decision Tree delivered the best balance across precision and recall  
 - The confusion matrix confirmed a strong predictive performance  
 - Decision boundaries showed clear separation for Setosa; overlap between Versicolor and Virginica
 
----
-
-## 6. Visual Assets
-
-
+![Confusion Matrix](images/confusion_matrix.png)
 
 ---
 
-## 7. Practical Applications
+## 6. Practical Applications
 
 **Business Insights:**  
 Machine learning can automate classification tasks in agriculture, biology, and logistics, reducing manual effort and improving accuracy.
 
 **Actionable Recommendations:**  
 - Use petal-based features for efficient classification  
-- Deploy Random Forest for robust performance across species  
+- Deploy Decision Tree for robust performance across species  
 - Integrate model into real-time systems for automated labeling
 
 **Risk Management:**  
@@ -84,11 +85,11 @@ Machine learning can automate classification tasks in agriculture, biology, and 
 
 ---
 
-## 8. Conclusion
+## 7. Conclusion
 
 **Key Findings Summary:**  
 - Petal length and width are the most predictive features  
-- Random Forest outperformed other models in balanced accuracy  
+- Decision Tree outperformed other models in balanced accuracy  
 - Visualizations confirmed strong model interpretability
 
 **Limitations:**  
