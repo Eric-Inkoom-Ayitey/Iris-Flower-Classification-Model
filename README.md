@@ -7,7 +7,7 @@ A supervised machine learning project that builds and evaluates classification m
 ## 1. Introduction
 
 **Problem Statement:**  
-The Iris dataset contains measurements of three flower species—Setosa, Versicolor, and Virginica. The challenge is to build a model that can accurately classify a flower into its correct species based on four numerical features: sepal length, sepal width, petal length, and petal width.
+The Iris dataset contains measurements of three flower species; Setosa, Versicolor, and Virginica. The challenge is to build a model that can accurately classify a flower into its correct species based on four numerical features: sepal length, sepal width, petal length, and petal width.
 
 **Objectives:**  
 - Build and evaluate classification models using supervised learning  
