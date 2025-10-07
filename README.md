@@ -36,9 +36,6 @@ Accurate classification of biological specimens is essential in agriculture, res
 - Correlation matrix highlights strong relationships between petal length and petal width  
 - Feature distributions show clear separation between species
 
-![Feature Importance](images/feature_importance.png)
-
-
 **Key Insights:**  
 - Petal measurements are more predictive than sepal measurements  
 - Setosa is easily separable; Versicolor and Virginica show partial overlap  
@@ -54,6 +51,8 @@ Accurate classification of biological specimens is essential in agriculture, res
 - Visualized confusion matrix and classification report
 
 ![Feature Importance](images/accuracy_comparison.png)
+
+![Feature Importance](images/feature_importance.png)
 
 ---
 
